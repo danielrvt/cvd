@@ -1,0 +1,4 @@
+Este documento hace uso de la libreria moderncv de latex,
+asi que para poder compilar el pdf se debe tener instalada.
+
+Para generar el pdf basta con hacer: "pdflatex cv.tex"
