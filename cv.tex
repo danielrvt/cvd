@@ -1,0 +1,113 @@
+\documentclass[10pt,a4paper]{moderncv}
+
+% Estilo del curruculum-
+\moderncvtheme[blue]{casual} 
+
+% Importa algunos paquetes.
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\usepackage{hyperref}
+
+% Datos Personales.
+\firstname{Daniel}
+\familyname{Rodriguez del Villar}
+\mobile{0414 920 15 03}                    
+\phone{0212 975 37 31}                      
+\email{dani.tri88@gmail.com}
+\extrainfo{Este documento fue hecho en LaTeX, usando el paquete moderncv}
+\photo[64pt]{foto.jpg}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+\nopagenumbers{}
+
+%Comienza el contenido.
+\begin{document}
+
+% Materializa el titulo.
+\maketitle
+
+\section{Informaci\'on Personal}
+	\begin{tabular}{l  l}
+		\textbf{Nombre}:    		    	        & \ Daniel. \\
+		\textbf{Apellidos}: 		      	      & \ Rodriguez del Villar 
+                                              Trimarchi. \\
+		\textbf{Fecha de Nacimiento}:         & \ 11 de Octubre de 1988. \\
+		\textbf{Lugar de Nacimiento}:         & \ Caracas, Venezuela. \\
+		\textbf{Estado Civil}: 		      	    & \ Soltero. \\
+		\textbf{Direccion de Habitaci\'on}:   & \ Calle. La Ceiba, Qta. San 
+                                              Rafael, \\
+                                          & \ Urb. El Peñon, Municipio Baruta, 
+                                              Caracas, Venezuela. \\
+		\textbf{Celular}: 				  	        & \ 0414 920 15 03. \\
+		\textbf{Tel\'efono de Habitaci\'on}:  & \ 0212 975 37 31. \\
+		\textbf{Idiomas}:                 	  & \ Español/Ingl\'es (Avanzado). \\
+		\textbf{Nacionalidad}:                & \ Venezolano/Italiano. \\
+	\end{tabular}
+
+\section{Educaci\'on}
+	\begin{tabular}{l l}
+		2001 - 2006   & \ \textbf{B\'asica/Diversificada}, U.E Colegio Santo 
+                       Tom\'as de Aquino, Caracas, \textit{Bachiller en 
+                       Ciencias} \\  
+		2006 - 2012   & \ \textbf{Universitaria}, Universidad Sim\'on Bol\'ivar, 
+                       Caracas, \textbf{Ingenier\'ia de Computaci\'on}\\
+	\end{tabular}
+	
+\section{Experiencia}
+	\begin{itemize}
+	   \item Miembro adjunto del Centro de Estudiantes de Ingenier\'ia de 
+             Computaci\'on 2009-2010 (CEIC).
+	   \item Miembro organizador de las $3^{eras}$ Jornadas Interuniversitarias 
+             de Ciencias de la Computaci\'on (JOINCIC), realizadas desde el 11 
+             de Mayo del 2010 al 15 de Mayo del 2010 en la Universidad Sim\'on 
+             Bol\'ivar. 
+       \item Desarrollador durante el periodo Julio-Septiembre (pasantia 
+             corta) en la Agencia de Viajes \textbf{Passarini-Su\'arez}. 
+             Dise\~no e implementaci\'on de robot interfaz entre el GDS 
+             \textbf{Amadeus} y el sistema \textbf{BookingReports}.
+       \item Coordinador de tecnolog\'ia e informaci\'on del Centro de 
+             Estudiantes de Ingenier\'ia de Computaci\'on de la Universidad 
+             Sim\'on Bol\'ivar durante el periodo 2010-2011.
+       \item Coordinador de tecnolog\'ia por parte de la Universidad Sim\'on 
+             Bol\'ivar en la organizaci\'on y realizaci\'on de las $4^{tas}$ 
+             Jornadas Interuniversitarias de Ciencias de la Computaci\'on 
+             (\url{www.joincic.com.ve}) a ser realizadas del 1 al 4 de Junio 
+             del 2011.
+       \item Desarrollador durante el periodo Julio-Diciembre del 2012 
+            (pasantia larga) en \textbf{Ingeolan}, obteniendo 
+            \textbf{Menci\'on honor\'ifica} en la defensa del proyecto. 
+            Desarrollo de un sistema de informaci\'on web geogr\'afico para 
+            manejar el aporte de incidencias a trav\'es del mapa digital de 
+            Venezuela propio de \textbf{Ingeolan}. Dise\~no e implementaci\'on 
+            de un protocolo de descarga de aportes del portal web a las 
+            instalaciones de la empresa.
+       \item Desarrollador a tiempo completo en \textbf{Ingeolan}. (Actual)
+    \end{itemize}
+
+\section{Competencia T\'ecnica}
+	\cvcomputer {Sistemas Operativos}{Linux (Ubuntu, Debian, Arch), \\ 
+                                      Unix (FreeBSD) \\ 
+                                      Windows (7 y anteriores.)}
+				{Manejadores de Bases de Datos}{Oracle, MySQL, PostgreSQL}
+	\cvcomputer {Leguajes de Programaci\'on}{Java, C/C++, C\#, Python, 
+               JavasCript}
+				{Lenguajes de Marcado}{LaTeX, HTML, XML}
+	\cvcomputer {Lenguajes de Programaci\'on Web}{PHP, CSS}
+				{Utilidades}{NetBeans, Eclipse, vim, \\ Aptana, OpenOffice, Office}	
+
+  \cvcomputer {Frameworks}{JQuery, JQuery UI, OpenLayers, phpMapScript}
+				{Sistemas de control de versiones}{GIT}	
+
+
+\section{Areas de Inter\'es}
+	\begin{itemize}
+		\item{Sistemas Operativos} 
+		\item{Base de Datos} 
+		\item{Redes}
+		\item{Software Libre} 
+        \item{Desarrollo de Videojuegos}
+        \item{Desarrollo de Sistemas Web}
+	\end{itemize}
+\end{document}
